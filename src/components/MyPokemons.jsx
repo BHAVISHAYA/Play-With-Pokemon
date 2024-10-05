@@ -11,7 +11,7 @@ export const MyPokemons = () => {
 
     
  
-    const API = "https://pokeapi.co/api/v2/pokemon/?limit=500";
+    const API = "https://pokeapi.co/api/v2/pokemon/?limit=20";
 
     const fetchPokemon = async () => {
         try {
